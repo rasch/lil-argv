@@ -1,6 +1,6 @@
 {
   "name": "lil-argv",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "a Lil Argv parser for ECMAScript CLI applications",
   "type": "module",
   "files": [
@@ -8,7 +8,7 @@
     "index.d.ts"
   ],
   "main": "index.js",
-  "exports": "index.js",
+  "exports": "./index.js",
   "types": "index.d.ts",
   "scripts": {
     "clean": "rm -rf node_modules coverage index.d.ts",
